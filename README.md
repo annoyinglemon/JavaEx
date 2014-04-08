@@ -1,3 +1,3 @@
 # test for JavaCodes
 	
-Java Code for dummies
+I'm getting used to it!
