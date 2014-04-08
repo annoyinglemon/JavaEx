@@ -2,6 +2,7 @@ class Bicycle {
 public int cadence;
 public int gear;
 public int speed;
+public int weight;
 
 public void setUp(int gear1, int cadence1)
 {
@@ -13,6 +14,7 @@ public Bicycle()	//this is a constructor(up to 6 only)
  cadence = 1 ;	//or use this(0, 0, 0); can only be used on same constructor
  gear = 0;
  speed = 0;
+ weight = 10 kg;
 	
 }
 
@@ -31,6 +33,9 @@ public void speedUp(int increment)
 public void applyBrake()
 {
  speed = speed - 10;
+}
+public void changeWeight(int w){
+this.weight = w;
 }
 public void writeOutput()
 {
